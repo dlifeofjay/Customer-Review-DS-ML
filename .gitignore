@@ -1,0 +1,9 @@
+# ML models
+*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log

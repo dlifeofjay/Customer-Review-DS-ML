@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ca4e3b523aad10f6adc5bbeaa6434eab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Lagos Marriott Hotel Ikeja vs Radisson Blu Ikeja</b></h3>
+             <h4 align="center" style="font-size:14px">Distance: 1084.43 m</h4>
+             
+    
+            <div class="folium-map" id="map_ca4e3b523aad10f6adc5bbeaa6434eab" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ca4e3b523aad10f6adc5bbeaa6434eab = L.map(
+                "map_ca4e3b523aad10f6adc5bbeaa6434eab",
+                {
+                    center: [6.59, 3.347],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c0561ee69102a6f18bd73b062905ce3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3c0561ee69102a6f18bd73b062905ce3.addTo(map_ca4e3b523aad10f6adc5bbeaa6434eab);
+        
+    
+            var marker_36dd8f39f17792f73bb7a1c361e23abc = L.marker(
+                [6.5848714, 3.3492881],
+                {
+}
+            ).addTo(map_ca4e3b523aad10f6adc5bbeaa6434eab);
+        
+    
+            var icon_d8011107caf29c670ec4655fdd62b109 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6411a19f158f99f25d8b764b00aacb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c830fb5a0bb265e2bb59b405e21685e = $(`<div id="html_7c830fb5a0bb265e2bb59b405e21685e" style="width: 100.0%; height: 100.0%;"><b>Lagos Marriott Hotel Ikeja</b></div>`)[0];
+                popup_a6411a19f158f99f25d8b764b00aacb7.setContent(html_7c830fb5a0bb265e2bb59b405e21685e);
+            
+        
+
+        marker_36dd8f39f17792f73bb7a1c361e23abc.bindPopup(popup_a6411a19f158f99f25d8b764b00aacb7)
+        ;
+
+        
+    
+    
+                marker_36dd8f39f17792f73bb7a1c361e23abc.setIcon(icon_d8011107caf29c670ec4655fdd62b109);
+            
+    
+            var marker_021820c82a3fc50ee0ea703dcd9b7a6f = L.marker(
+                [6.582, 3.3586641],
+                {
+}
+            ).addTo(map_ca4e3b523aad10f6adc5bbeaa6434eab);
+        
+    
+            var icon_c1d6bed72e36618747234c4d535d27e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05e5ba2459d299bbe58a0b1ac82e00ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dada4d54e13370e735d574e091f8a3e = $(`<div id="html_5dada4d54e13370e735d574e091f8a3e" style="width: 100.0%; height: 100.0%;"><b>Radisson Blu Ikeja</b></div>`)[0];
+                popup_05e5ba2459d299bbe58a0b1ac82e00ff.setContent(html_5dada4d54e13370e735d574e091f8a3e);
+            
+        
+
+        marker_021820c82a3fc50ee0ea703dcd9b7a6f.bindPopup(popup_05e5ba2459d299bbe58a0b1ac82e00ff)
+        ;
+
+        
+    
+    
+                marker_021820c82a3fc50ee0ea703dcd9b7a6f.setIcon(icon_c1d6bed72e36618747234c4d535d27e2);
+            
+    
+            var poly_line_16c39006cb0a6c2fef1a2c4bc893de01 = L.polyline(
+                [[6.5848714, 3.3492881], [6.582, 3.3586641]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_ca4e3b523aad10f6adc5bbeaa6434eab);
+        
+    
+            poly_line_16c39006cb0a6c2fef1a2c4bc893de01.bindTooltip(
+                `<div>
+                     Distance: 1084.43 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_3c0561ee69102a6f18bd73b062905ce3.addTo(map_ca4e3b523aad10f6adc5bbeaa6434eab);
+        
+    
+                marker_36dd8f39f17792f73bb7a1c361e23abc.setIcon(icon_d8011107caf29c670ec4655fdd62b109);
+            
+    
+                marker_021820c82a3fc50ee0ea703dcd9b7a6f.setIcon(icon_c1d6bed72e36618747234c4d535d27e2);
+            
+</script>
+</html>
