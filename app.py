@@ -1,5 +1,5 @@
 # ==========================================
-# Trying to build a good streamlit dashboard
+# Trying to build a nice streamlit dashboard
 # ==========================================
 
 
@@ -14,7 +14,7 @@ import seaborn as sns
 
 
 # Load in data
-df = pd.read_csv(r".\data\dashboard_data.csv")
+df = pd.read_csv(r"/data/dashboard_data.csv")
 
 
 # For text
